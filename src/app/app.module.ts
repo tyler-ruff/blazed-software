@@ -14,6 +14,7 @@ import { AuthModule } from '@auth0/auth0-angular';
 import { AboutComponent } from './about/about.component';
 import { BrowseComponent } from './browse/browse.component';
 import { ProfileComponent } from './profile/profile.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProfileComponent } from './profile/profile.component';
     NavComponent,
     AboutComponent,
     BrowseComponent,
-    ProfileComponent
+    ProfileComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
