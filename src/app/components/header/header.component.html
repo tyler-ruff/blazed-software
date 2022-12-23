@@ -1,7 +1,7 @@
                                
 
 <header>
-    <nav class="fixed w-full bg-gray-100 border-b">
+    <nav class="w-full bg-gray-100 border-b">
         <div class="container m-auto px-6 md:px-12 lg:px-6">
             <div class="flex flex-wrap items-center justify-between py-6 gap-6 md:py-4 md:gap-0">
                 <div class="w-full flex justify-between lg:w-auto">
@@ -50,9 +50,11 @@
                 </div>
             </div>
         </div>
-        <div class="nav-mobile">
+        <div class="w-full nav-mobile bg-gray-200">
             <ng-container *ngIf="burgerVisible">
-                <app-nav></app-nav>
+                <div class="pt-10 h-screen">
+                    <app-nav></app-nav>
+                </div>
             </ng-container>
         </div>
     </nav>
